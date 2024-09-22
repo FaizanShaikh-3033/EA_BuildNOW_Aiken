@@ -21,6 +21,7 @@ If not, execute the following steps to create the address and fund it with test 
     --payment-verification-key-file payment1.vkey \
     --stake-verification-key-file stake1.vkey \
     --out-file payment1.addr \
+    --testnet-magic 2
     $PREVIEW
 ```
 

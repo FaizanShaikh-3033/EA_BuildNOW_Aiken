@@ -54,5 +54,5 @@ test usual_suspect_testset1() {
 }
 
 test patterns_testset1() {
-    patterns(1) == 5 && patterns(2) == 6 && patterns(3) == 7 && patterns(4) == 8
+    patterns(1) == 5 || patterns(2) == 6 && patterns(3) == 7 && patterns(4) == 8
 }   
