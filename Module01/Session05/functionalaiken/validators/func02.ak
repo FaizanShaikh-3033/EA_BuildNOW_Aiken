@@ -1,8 +1,13 @@
 // Basic lists map, all, any, filter, foldl, foldr
+<<<<<<< HEAD
 
 use aiken/collection/list
 use aiken/collection/pairs
 
+=======
+use aiken/collection/pairs
+use aiken/collection/list
+>>>>>>> 4db879fb7e9515ab1d0ca32cf8db451c47c7d546
 
 pub fn simplelist() -> List<Int> {
     [1, 2, 3, 4, 5]
